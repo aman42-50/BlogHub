@@ -1,7 +1,7 @@
 {% extends "base/base.html" %}
 {% load crispy_forms_tags %}
 {% block content %}
-    <div class="content-section" style="margin-top: 25px;">
+    <div class="container" style="margin-top: 25px; max-width: 500px;">
         <h1 style="text-align: center; font-family: Monaco;">Log In</h1>
         <form method="POST">
             {% csrf_token %}
@@ -9,7 +9,7 @@
                 {{ form|crispy }}
             </fieldset>
             <div class="form-group">
-                <button class="btn2 btn-outline-info" type="submit">Login</button>
+                <button class="btn" type="submit">Login</button>
             </div>
         </form>
         <div class="border-top pt-3">

@@ -19,6 +19,7 @@ from django.urls import path, include
 from users import views as users_views
 from django.contrib.auth import views as auth_views
 from bloghub import settings
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -28,3 +29,5 @@ urlpatterns = [
     path('logout/', auth_views.LogoutView.as_view(next_page=settings.LOGOUT_REDIRECT_URL), name='logout'),
 
 ]
+
+urlpatterns += staticfiles_urlpatterns()

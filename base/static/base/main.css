@@ -1,103 +1,35 @@
-.btn {
-  background-color: #fafafa;
-  border: none;
-  color: #28323d;
-  padding: 6px 10px;
-  cursor: pointer;
+.link{
+  color: #fafafa;
+}
+.link:hover{
+  color: #EEEEEE;
+}
+.navbar{
+  background-color: #28323d;
+}
+body{
+  background-color: #dae0e6;
+  font-family: Monaco;
+}
+.container{
+  background-color: #ffffff;
+  max-width: 800px;
+  margin-top: 20px;
+  padding: 20px 50px;
   border-radius: 20px;
 }
-h1, h2, h3, h4, h5, h6 {
-  color: #28323d;
-  font-family: Monaco;
+.col-btn{
+  color: black;
+  text-align: center;
 }
-.btn:hover {
-  color: #fafafa;
-  background-color: #28323d;
-}
-
-.btn2 {
-  background-color: #28323d;
-  border: none;
-  color: #fafafa;
-  padding: 6px 10px;
-  cursor: pointer;
-  font-family: Monaco;
-}
-.btn2:hover {
-  background-color: #fafafa;
-  color: #28323d;
-}
-.navbar-custom {
-  background-color: #28323d;
-} 
-.navbar-custom .navbar-brand,
-.navbar-custom .navbar-text {
-  color: #fafafa;
-}
-.content-section {
-  background: #ffffff;
-  padding: 10px 20px;
-  border: 1px solid #dddddd;
-  border-radius: 3px;
-  margin-bottom: 20px;
-  margin-top: 25px;
-  margin: auto;
-  max-width: 400px;
-}
-
-.article-title {
-  color: #444444;
-}
-
-a.article-title:hover {
-  color: #428bca;
-  text-decoration: none;
-}
-
-.article-content {
-  white-space: pre-line;
-}
-
-.article-section {
-  background: #ffffff;
-  padding: 10px 20px;
-  border: 1px solid #dddddd;
-  border-radius: 3px;
-  margin-top: 50px;
-  margin: auto;
-  max-width: 600px;
-}
-
-.article-img {
-  height: 65px;
-  width: 65px;
-  margin-right: 16px;
-}
-
 .article-metadata {
   padding-bottom: 1px;
-  margin-bottom: 4px;
+  margin-bottom: 20px;
   border-bottom: 1px solid #e3e3e3
 }
-
-.article-metadata a:hover {
-  color: #333;
-  text-decoration: none;
-}
-
-.article-svg {
-  width: 25px;
-  height: 25px;
-  vertical-align: middle;
-}
-
-.account-img {
-  height: 125px;
-  width: 125px;
-  margin-right: 20px;
-  margin-bottom: 16px;
-}
-
-.account-heading {
-  font-size: 2.5rem;
+.btn{
+  color: #fafafa;
+  background-color: #28323d;
+  border-radius: 20px;
+  margin-bottom: 20px;
 }
